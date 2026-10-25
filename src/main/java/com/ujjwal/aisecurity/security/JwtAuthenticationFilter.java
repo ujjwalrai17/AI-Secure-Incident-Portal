@@ -1,6 +1,7 @@
 
 package com.ujjwal.aisecurity.security;
-
+import org.springframework.security.web.authentication.HttpStatusEntryPoint;
+import org.springframework.http.HttpStatus;
 import com.ujjwal.aisecurity.service.JwtService;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
